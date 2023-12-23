@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#product {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#a619f8, #00f2fe);
+}
+
+#product .products {
+  display: flex;
+}
+
+#product .card {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 9px;
+  border: 1px solid black;
+}
+
+#product .card .card-image {
+  width: 200px;
+  height: 250px;
+}
+
+#product .card .card-image img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-left: 70px;
+}
+
+#product .card-body .product-detail {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+#product .card-body .product-detail h2 {
+  font-family: Roboto, Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+#product .card-body .product-detail span {
+  color: green;
+  margin-left: 39px;
+  font-family: Roboto, Arial, sans-serif;
+}
+#product .card-body .colors .item {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.item:hover {
+  transform: scale(0.75);
+  transition: 0.5s;
+}
+
+#product .card-body .colors .item:nth-child(1) {
+  background-color: #fafafa;
+}
+
+#product .card-body .colors .item:nth-child(2) {
+  background-color: #000000;
+}
+
+#product .card-body .colors .item:nth-child(3) {
+  background-color: #0026ff;
+}
+
+#product .card-body .colors {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+#product .card-body .price-area {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+
+#product .card-body .price-area a {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 6px 25px 6px 25px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+}
+
+a:hover {
+  transition: 0.5s;
+  scale: 1.2;
+  color: green;
+}
+
+#product .card-body .price-area h3 {
+  margin-top: 3px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}

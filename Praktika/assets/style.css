@@ -1,0 +1,56 @@
+/* _++++ */
+
+/* .box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box h1 {
+  color: white;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+  padding: 30px;
+}
+
+h1 {
+  color: white;
+} */
+
+.box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .cover {
+  width: 486px;
+  height: 324px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.box .image {
+  position: relative;
+}
+
+.box .image:hover .cover {
+  opacity: 0;
+}
